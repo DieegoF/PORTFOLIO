@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>PORTFOLIO</title>
+
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+
+
+        <div class="contenido">
+            <Header>
+                <div class="contenido-header">
+                    <h1>DF</h1>
+                    <nav id="nav" class="nav">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+
+                        </ul>
+                    </nav>
+
+                    <!--ICONOS DEL MENU RESPONSIVE-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-sharp fa-solid fa-bars"></i>
+                    </div>
+
+                    <!--ICONOS DE REDES SOCIALES-->
+                    
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/DieegoF"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </Header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Diego Fernandez</span>, Desarrollador Web</h2>
+                <p class="descripcion">Tengo 30 años, soy de Buenos Aires. Tecnico en informatica con orientacion
+                    en redes, certificado en Desarrollo Web cursado en Coderhouse y proximo a estudiar tecnicatura en 
+                    programacion. Conocimientos en HTML, Css, Javascript, React, consumo de Apis y maquetados de 
+                    paginas web con el uso de librerias como Bootstraps</p> 
+                    <a href="#portfolio" class="portofolio">PROYECTOS</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--SECCION SOBRE MI-->
+
+    <section id="sobremi">
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola soy Diego Fernandez</h2>
+            <h3>Desarrollador Web</h3>
+            <a href="#"> Descargar CV</a>
+        </div>
+    </section>
+
+    <!--SECCION SERVICIOS-->
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-paint-roller"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Diseño web</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Diseños de sitios de E-commerce
+                    para tu emprendimiento o pagina empresarial y/o personal
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Maquetado de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Diseño web</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Diseños a tu gusto del sitio, presupuestos y te guio en 
+                    el camino para diseñarlo lo mas optimo posible
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-cart-shopping"></i></i></span>
+                <h4>E-commerce</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Diseño web</li>
+                    <li>SEO</li>
+                </ul>
+                <p>¿Tenes un emprendimiento? ¿Queres vender un producto? 
+                    Diseñamos juntos el sitio para la mejor experiencia del usuario </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-google"></i></span>
+                <h4>Posicionamiento SEO</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Diseño web</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    El posicionamiento SEO es el proceso de mejorar la visibilidad de una
+                   página web en los resultados orgánicos de los diferentes motores de búsqueda.<br>
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-image"></i></span>
+                <h4>Diseño grafico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Diseño web</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Optimizacion de imagenes para que resulte lo mas atractivo
+                    posible a la vista del usuario
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION HABILIDADES-->
+    
+    <div class="contenedor-skills" id="skills">
+
+        <h3>HABILIDADES</h3>
+        
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>HTML</p>
+                <span class="porcentaje"> 95% </span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+    
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"> </span>Css</p>
+            <span class="porcentaje"> 90% </span>
+        </div>
+        <div class="barra">
+            <div id="Css" class="barra-progreso2"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Javascript</p>
+            <span class="porcentaje"> 70% </span>
+        </div>
+        <div class="barra">
+            <div id="js" class="barra-progreso3"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>React</p>
+            <span class="porcentaje"> 80% </span>
+        </div>
+        <div class="barra">
+            <div id="React" class="barra-progreso4"></div>
+        </div>
+    </div>
+
+
+</div>
+
+    <!--SECCION PORTFOLIO-->
+
+    <section id="portfolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="/img/img1-min.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="/img/img2-min.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="/img/img3-min.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="/img/img5-min.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacto</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre completo" class="input-mitad">
+                    <input type="text" placeholder="E-mail" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="/index.js"></script>
+</body>
+</html>
